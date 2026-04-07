@@ -22,20 +22,14 @@ class DockShortcut < Formula
     (prefix/"Applications").install "build/Build/Products/Release/DockShortcut.app"
   end
 
+  def post_install
+    system "ln", "-sf", "#{opt_prefix}/Applications/DockShortcut.app", "/Applications/DockShortcut.app"
+  end
+
   def caveats
     <<~EOS
-      DockShortcut has been installed to:
-        #{opt_prefix}/Applications/DockShortcut.app
-
-      To launch it:
-        open #{opt_prefix}/Applications/DockShortcut.app
-
-      Or move it to /Applications for easier access.
-
-      DockShortcut is not signed with an Apple Developer certificate.
-      To bypass the Gatekeeper warning, right-click the app and choose Open,
-      or remove the quarantine flag:
-        xattr -dr com.apple.quarantine #{opt_prefix}/Applications/DockShortcut.app
+      DockShortcut.app has been symlinked to /Applications/DockShortcut.app
+      for easier access.
     EOS
   end
 
