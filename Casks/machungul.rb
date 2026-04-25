@@ -1,6 +1,6 @@
 cask "machungul" do
-  version "0.1.0"
-  sha256 "e8efebdf5db7570848ad655a9f7866db86b3edad5dcd7b0dd683a9870ed5ab87"
+  version "0.1.1"
+  sha256 "4b0da3e43dfddc19e62de48d1134808edfe9130318c4a6a4d969aa19e4601bfc"
 
   url "https://github.com/huswim/MacHangul/releases/download/v#{version}/MacHangul.zip"
   name "MacHangul"
