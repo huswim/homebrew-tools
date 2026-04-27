@@ -1,6 +1,6 @@
 # homebrew-tools
 
-A Homebrew tap for tools by [@huswim](https://github.com/huswim).
+Homebrew tap for tools by [@huswim](https://github.com/huswim).
 
 ## Usage
 
@@ -8,21 +8,10 @@ A Homebrew tap for tools by [@huswim](https://github.com/huswim).
 brew tap huswim/tools
 ```
 
-## Casks
+## Available Tools
 
-| Cask | Description | Version |
-|------|-------------|---------|
-| `dock-shortcut` | macOS menu bar app to launch or switch Dock apps with keyboard shortcuts | 0.2.1 |
-
-### dock-shortcut
-
-```bash
-brew install --cask huswim/tools/dock-shortcut
-```
-
-Assigns `Ctrl+Option+1–0` shortcuts to the first 10 apps in your Dock.
-See [mac-dock-shortcut](https://github.com/huswim/mac-dock-shortcut) for details.
-
-The app is installed to `/Applications/DockShortcut.app`.
-
-The app runs in the menu bar. Use the **Launch at Login** option in its menu to start it automatically on login.
+| Name | Type | Description | Install Command |
+| :--- | :--- | :--- | :--- |
+| [`dock-shortcut`](https://github.com/huswim/mac-dock-shortcut) | Cask | Launch/switch Dock apps with keyboard shortcuts | `brew install --cask huswim/tools/dock-shortcut` |
+| [`machungul`](https://github.com/huswim/MacHangul) | Cask | Korean keyboard fixes (₩→backtick, Right ⌘→Caps Lock) | `brew install --cask huswim/tools/machungul` |
+| [`keyfix`](https://github.com/huswim/keyfix) | Formula | macOS keyboard fixes (IME delay, Right CMD remap) | `brew install huswim/tools/keyfix` |
