@@ -5,8 +5,8 @@
 class Keyfix < Formula
   desc "Fix macOS keyboard annoyances: IME delay, Right CMD remap"
   homepage "https://github.com/huswim/keyfix"
-  url "https://github.com/huswim/keyfix/archive/refs/tags/v0.1.0.tar.gz"
-  sha256 "REPLACE_WITH_SHA256_OF_TARBALL"
+  url "https://github.com/huswim/keyfix/archive/refs/tags/v0.1.1.tar.gz"
+  sha256 "381b8e3630b26483713aa8de9752aca2cb023e2f0214ae1e54656c6358c119d2"
   license "MIT"
   head "https://github.com/huswim/keyfix.git", branch: "main"
 
