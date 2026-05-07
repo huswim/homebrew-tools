@@ -1,8 +1,8 @@
 cask "dock-shortcut" do
-  version "0.3.1"
-  sha256 "71e1ee8df4fa01bf4133a77a0e111d0c1ce6c2de4e4fac868279f49586f9b2bf"
+  version "0.3.2"
+  sha256 "666b214e45b69b6b871d041a1c284ea2ddf8f5476a383b6153d215ecdc0fe156"
 
-  url "https://github.com/huswim/mac-dock-shortcut/releases/download/v0.3.1/DockShortcut-vv0.3.1.zip"
+  url "https://github.com/huswim/mac-dock-shortcut/releases/download/v0.3.2/DockShortcut-vv0.3.2.zip"
   name "DockShortcut"
   desc "macOS menu bar app to launch or switch Dock apps with keyboard shortcuts"
   homepage "https://github.com/huswim/mac-dock-shortcut"
